@@ -1,0 +1,84 @@
+html {
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+#calculator {
+    width: 350px;
+    background-color: gray;
+    margin: 100px auto 0px;
+    padding: 20px;
+    border-radius: 20px;
+    border: black solid 2px;
+}
+
+#display {
+    gap: 20px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: black solid 2px;
+}
+
+#display-calculations {
+    max-width: 306px;
+    box-sizing: border-box;
+    min-height: 40px;
+    font-size: 20px;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+#display-value {
+    max-width: 306px;
+    box-sizing: border-box;
+    min-height: 50px;
+    font-size: 40px;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: lightgray;
+    text-align: center;
+    height: 70px;
+    border-radius: 6px;
+    border: black solid 2px;
+    flex: 1 1 0;
+    font-size: 20px;
+}
+
+#clear {
+    background-color: rgb(244, 147, 137);
+}
+
+#delete {
+    background-color: rgb(142, 206, 227);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(187, 185, 185);
+}
+
+#clear:hover {
+    background-color: rgb(206, 115, 115);
+}
+
+#delete:hover {
+    background-color: rgb(113, 163, 195);
+}
+
+/* operator immediate */
